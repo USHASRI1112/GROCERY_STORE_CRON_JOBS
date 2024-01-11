@@ -11,3 +11,4 @@ flask-cors
 email-validator
 weasyprint
 celery[redis]
+gunicorn==20.1.0
