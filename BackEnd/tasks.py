@@ -12,8 +12,8 @@ from datetime import datetime, timedelta
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from jinja2 import Template
-from models import Product,User,Category,Order
-from database import db
+from .models import Product,User,Category,Order
+from .database import db
 
 
 app = Flask(__name__)
