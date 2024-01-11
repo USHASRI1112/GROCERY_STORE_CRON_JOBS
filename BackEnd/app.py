@@ -10,8 +10,8 @@ import redis #import redis for backend
 # from functools import wraps
 from flask_caching import Cache #importing the Cache from flask_Caching
 from .tasks import export_csv #import export_csv from the funcs to create triggered celery job
-from models import Product,User,Category,Order #importing the models and used in respective places
-from database import db #importing db from the database
+from .models import Product,User,Category,Order #importing the models and used in respective places
+from .database import db #importing db from the database
 import sys
 import os
 
