@@ -6,8 +6,8 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from jinja2 import Template
 import time
-from database import db
-from models import Order, User
+from .database import db
+from .models import Order, User
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite3'
